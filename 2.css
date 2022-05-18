@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Pacifico&display=swap');
+
+* {
+  margin: 0; padding: 0;
+}
+
+body {
+  background-color: #FD6089;
+}
+
+#container {
+  margin: 100px auto;
+  width: 70vw;
+  background-color: aliceblue;
+}
+
+  header > p {
+    position: relative;
+    top: 10px;
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Pacifico';
+  }
+
+  header > .line {
+    margin: 15px auto 2px;
+    width: 90px;
+    height: 2px;
+    background-color: orange;
+  }
+
+aside {
+  position: relative;
+  top: 10px;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  color: #C2C4C3;
+  font-family: 'Open Sans';
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+  padding-bottom: 30px;
+}
+
+.box {
+  float: left;
+  width: 200px;
+  height: 350px;
+  background-color: white;
+  margin: 0px 5px 10px 0px;
+}
+
+  .box > .star {
+    font-size: 20px;
+    letter-spacing: 4px; /* 자간 */
+    color: #D76728;
+    margin-left: 10px;
+  }
+
+  .box > h1 {
+    font-size: 110%;
+    float: left;
+    margin: 5px 10px;
+    font-family: 'Pacifico';
+
+  }
+  .box > .money {
+    float: left;
+    width: 40px; height: 20px;
+    background-color: #D76728;
+    color: white;
+    text-align: center;
+    line-height: 2.0em;
+    font-size: x-small;
+    margin: 5px 5px 0px 0px;
+  }
+  .box > .text {
+    position: relative;
+    left: 8px; top: 8px;
+    float: left;
+    clear: both;
+    font-size: 15px;
+    color: #C2C4C3;
+    font-family: 'Open Sans';
+  }
+
+  .box > .button {
+    position: relative;
+    top: 20px; left: 15px;
+    width: 100px;
+    height: 35px;
+    border-radius: 2em;
+    background-color: #F7E0D3;
+    border: none;
+    color: #D76728;
+    font-size: 15px;
+    font-family: 'Open Sans';
+  }
+
+  .box > .pic {
+    width: 200px;
+    height: 150px;
+  }
